@@ -1,0 +1,21 @@
+.home_filter{
+    padding: 0;
+    padding-left: 30px;
+}
+.home_filter_note{
+    margin: 0;
+    font-size: 1.8rem;
+    padding: 5px 5px;
+}
+.home_filter_note a{
+    padding: 0 5px;
+    color: var(--black--color);
+}
+.home_filter_note h1{
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+.home_filter_note a:hover{
+    color:  var(--white-color);
+}

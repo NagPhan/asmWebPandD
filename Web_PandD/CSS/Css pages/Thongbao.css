@@ -1,0 +1,10 @@
+.grid_row{
+    margin: 0;
+}
+.grid_row p{
+    font-size: 1.5rem;
+}
+.footer > .grid > .grid_row{
+    margin-left: -10px;
+    margin-right: -10px;
+}

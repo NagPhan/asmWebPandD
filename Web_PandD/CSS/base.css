@@ -1,0 +1,70 @@
+:root{
+    --white-color: white;
+    --black-color: black;
+    --navbar-height: 23px;
+    --header-height: 120px;
+    --header-menu-height: calc(var(--header-height)- var(--navbar-height))
+    --footer-height: 300px;
+}
+.grid{
+    width:1300px;
+    max-width: 100%;
+    margin: 0 auto
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.grid_column{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.grid_column-3{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 23.413%;
+}
+.btn{
+    margin-left: 15px;
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--black-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+    background-color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.btn:hover{
+    background-color: orange;
+}
+.btn-1{
+    background-color: white;
+    border-radius: .2rem;
+    padding: 5px 10px;
+    outline: none;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.btn-1:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btn-choose{
+    background-color: orange;
+}

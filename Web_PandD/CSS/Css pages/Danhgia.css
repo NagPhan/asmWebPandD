@@ -1,0 +1,14 @@
+.home_product{
+    padding-top: 20px;
+}
+.grid_row h1{
+    font-weight: 3rem;
+    font-variant: small-caps;
+}
+.grid_row textarea{
+    margin-top: 20px;
+}
+.footer > .grid > .grid_row{
+    margin-left: -10px;
+    margin-right: -10px;
+}

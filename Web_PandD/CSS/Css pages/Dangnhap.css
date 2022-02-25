@@ -1,0 +1,58 @@
+.boxdangnhap{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.boxdangnhap_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.boxdangnhap_body{
+    width: 510px;
+    height: 400px;
+    background-color: var(--white-color);
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.dangnhap{
+    padding: 0 30px;
+}
+.dangnhap-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dangnhap-header h3{
+    font-size: 30px;
+}
+.dangnhap-header a{
+    font-size: 20px;
+    color: var(--black--color);
+    text-decoration: none;
+}
+.dangnhap-nhap-input input{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px ;
+}
+.dangnhap-luachon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dangnhap-luachon button{
+    font-size: 20px;
+    border-radius: .2rem;
+    padding: 5px 10px;
+    outline: none;
+}
